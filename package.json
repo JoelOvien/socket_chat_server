@@ -1,0 +1,27 @@
+{
+  "name": "socket_chat_server",
+  "version": "1.0.0",
+  "description": "\"Socket chat server\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "JoelOvien",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelOvien/socketIO_server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoelOvien/socketIO_server/issues"
+  },
+  "homepage": "https://github.com/JoelOvien/socketIO_server#readme"
+}
